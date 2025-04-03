@@ -16,7 +16,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'  
-
+          
+      - name: Intall NPM
+        run: npm install --package-lock-only
+        
       - name: Install dependencies
         run: |
           if [ -e yarn.lock ]; then
