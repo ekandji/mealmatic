@@ -1,6 +1,6 @@
 import {Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf} from "lucide-react";
-//import ReactDOM from 'react-dom';
-//import React from 'react';
+import ReactDOM from 'react-dom';
+import React from 'react';
 
 // Access Lucide icons from the global lucide object
 //const { Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
