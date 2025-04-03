@@ -2,7 +2,7 @@
 const { ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
 
 const MealOMatic = () => {
-  const [currentPage, React.useState('landing')];
+  const [currentPage, setCurrentPage] = React.useState('landing');
 
   const LandingPage = () => (
     <div className="min-h-screen bg-white flex flex-col justify-center items-center p-4">
