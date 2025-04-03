@@ -1,7 +1,7 @@
-import { Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } from "lucide-react";
+//import { Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } from "lucide-react";
 
 // Access Lucide icons from the global lucide object
-//const { Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
+const {ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
 
 
 const MealOMatic = () => {
