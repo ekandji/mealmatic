@@ -1,7 +1,7 @@
-import { Camera, User, Settings } from "lucide-react";
+import * as lucide from "lucide-react";
 
 // Access Lucide icons from the global lucide object
-const { ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
+const { Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
 
 const MealOMatic = () => {
   const [currentPage, setCurrentPage] = React.useState('landing');
