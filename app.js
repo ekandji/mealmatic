@@ -20,18 +20,18 @@ const MealOMatic = () => {
         </p>
        
         <div className="space-y-4">
-          <Input
+          <input
             type="text"
             placeholder="Paste your recipe URL here"
             className="w-full p-4 text-lg border-2 border-gray-300"
           />
          
-          <Button
+          <button
             onClick={() => setCurrentPage('recipe')}
             className="w-full bg-green-600 hover:bg-green-700 text-white p-4 text-lg"
           >
             Parse My Recipe
-          </Button>
+          </button>
         </div>
        
         <div className="mt-8 text-sm text-gray-500">
