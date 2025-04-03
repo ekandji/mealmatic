@@ -1,4 +1,5 @@
-import {Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf} from "lucide-react";
+//import {Camera, User, Settings, ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf} from "lucide-react";
+import {ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf} from "lucide-react";
 import ReactDOM from 'react-dom';
 import React from 'react';
 
