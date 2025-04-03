@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '18'  
           
-      - name: Intall NPM
+      - name: Install NPM
         run: npm install 
 
       - name: Create package file
