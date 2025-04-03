@@ -1,3 +1,5 @@
+import { Camera, User, Settings } from "lucide-react";
+
 // Access Lucide icons from the global lucide object
 const { ChefHat, Clock, Users, Flame, Utensils, Wheat, Leaf } = lucide;
 
